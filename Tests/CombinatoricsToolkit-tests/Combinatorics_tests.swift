@@ -12,10 +12,10 @@ final class Combinatorics_tests: XCTestCase { }
 extension Combinatorics_tests {
     
     ///
-    func test_Combination_seed_size () throws {
-        func test (seed: [Int], size: Int, expected: [[Int]]) throws {
+    func test_Combination_seed_size() throws {
+        func test(seed: [Int], size: Int, expected: [[Int]]) throws {
             try Combination(seed: seed, size: size)
-                .asArray
+                .asArray()
                 .assertEqual(to: expected)
         }
         try test(

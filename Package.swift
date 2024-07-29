@@ -1,7 +1,8 @@
-// swift-tools-version: 5.7
+// swift-tools-version: 5.10
 
 ///
 import PackageDescription
+
 
 ///
 let package = Package(
@@ -17,13 +18,13 @@ let package = Package(
         ///
         .package(
             url: "https://github.com/jeremyabannister/FoundationToolkit",
-            from: "0.4.3"
+            "0.8.0" ..< "0.9.0"
         ),
         
         ///
         .package(
             url: "https://github.com/dankogai/swift-combinatorics",
-            from: "0.1.0"
+            "0.1.0" ..< "0.2.0"
         ),
     ],
     targets: [
