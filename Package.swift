@@ -23,8 +23,8 @@ let package = Package(
         
         ///
         .package(
-            url: "https://github.com/dankogai/swift-combinatorics",
-            "0.1.0" ..< "0.2.0"
+            url: "https://github.com/jeremyabannister/swift-combinatorics",
+            "0.1.2" ..< "0.2.0"
         ),
     ],
     targets: [
